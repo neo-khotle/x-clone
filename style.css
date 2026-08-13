@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* ==========================================
+   MOBILE (Default: 0px - 767px)
+   ========================================== */
+header{
+    display: flex;
+    height: 53px;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+
+.navbar-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navbar-mobile img{
+    width: 30px;
+}
+
+.logo img{
+    width: 10px;    
+}
+
+.navbar{
+    display: none;
+}
+.navbar-mobile button{
+    border-radius: 20px;
+    height: 36px;
+}
+
+/* ==========================================
+   TABLET (Default: 0px - 767px)
+   ========================================== */
+
+
+
+/* ==========================================
+   PC/DESKTOP (Default: 0px - 767px)
+   ========================================== */
