@@ -18,16 +18,43 @@ body{
     width: 100%;
 }
 
-header{
+/* header{
     display: flex;
     height: 53px;
     align-items: center;
     padding: 5px 10px;
     justify-content: space-between;
+} */
+
+header {
+    display: flex;
+    height: 53px;
+    flex-direction: column; /*puts navbar-mobile above navbar instead of side-by-side*/ 
+    align-items: stretch; /*stretch my children across the available horizontal space (width)*/
+    padding: 5px 10px;
+    width: 100%;
 }
 
-.navbar{
+.navbar > :last-child{
     display: none;
+}
+
+.navbar > :first-child{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    flex: 1;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .navbar-mobile{
@@ -36,8 +63,9 @@ header{
 
     justify-content: space-between;
     align-items: center;
-    padding-top: 5px 10px;
+    padding: 10px 10px 30px 10px;
     width: 100%;
+    height: 63px;
 }
 
 
@@ -75,7 +103,7 @@ header{
 
     bottom: 0;
     left: 0;
-    position: fixed;
+    position: fixed; 
 
     width: 100%;
     height: 50px;
