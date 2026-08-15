@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="navbar-mobile">
-            <img src="" alt="profile photo">
+            <img src="assets/profile-pic.jpg" alt="profile photo">
             <img class="logo" src="assets/x-logo.svg" alt="logo">
             <button>Subscribe</button>
         </div>
@@ -37,7 +37,7 @@
 
     </header>
 
-    <left-sidebar>
+    <div class = "left-sidebar">
         <span class="category">
             <i class="material-icons">home</i>
             Home
@@ -92,7 +92,7 @@
             <i class="material-icons">pending</i>
             More
         </span>
-    </left-sidebar>
+    </div>
 
     <main>
         <!-- new tweet box -->
@@ -112,7 +112,16 @@
         <button>Post</button>
     </main>
 
-    <right-sidebar>
+    <!-- bottom nav for mobile view -->
+    <nav class="bottom-nav">
+    <i class="material-icons">home</i>
+    <i class="material-icons">search</i>
+    <i class="material-icons">post_add</i>
+    <i class="material-icons">notifications</i>
+    <i class="material-icons">chat_bubble_outline</i>
+</nav>
+
+    <div class="right-sidebar">
         <div class="trending-widget">
             <h3>Today's News</h3>
             <button><i class="material-icons">close</i></button>
@@ -184,6 +193,6 @@
             </div>
 
         </div>
-    </right-sidebar>
+    </div>
 </body>
 </html>
