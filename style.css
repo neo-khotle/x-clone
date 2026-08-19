@@ -144,6 +144,7 @@ header {
 
 main{
     display: block;
+    padding-bottom: 40px;
     width: 100%;
 }
 
@@ -255,6 +256,49 @@ h4 {
     font-size: 20px;
 }
 
+.post-body{
+    margin-left: 52px;
+}
+
+.post-body p {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 20px; /*space between lines*/
+}
+
+.post-image {
+    display: block;
+    width: 100%;
+    max-height: 400px; /*for flexibility - different posts different heights possibly*/
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* post body */
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 8px;
+    margin-left: 52px;
+    
+}
+
+.post-actions > div {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    color: #536471;
+    font-size: 13px;
+    /* padding-bottom: 40px; */
+}
+
+.post-actions i {
+    font-size: 18px;
+}
+/* post body */
 
 
 .right-sidebar{
